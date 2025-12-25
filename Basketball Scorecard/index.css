@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #192d57;
+    color: white;
+    font-family:  'VT323', monospace;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-container{
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.reset-btn button{
+    width: 100%;
+    margin: auto;
+    
+}
+.container{
+    display: flex;
+    min-width: 320px;
+    margin: 0px;
+    padding: 0px;
+}
+.score {
+    background-color: #080a26;
+    color: #ff4040;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 10px; 
+    border-radius: 10px;
+}
+
+.controlls {
+    display: flex;
+    margin: 5px;
+    margin-bottom: 0px;
+    padding: 2px;
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid lightblue;
+    margin: 5px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-family:  'VT323', monospace;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
